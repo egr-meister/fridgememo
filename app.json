@@ -27,7 +27,7 @@
       "versionCode": 1,
       "compileSdkVersion": 35,
       "targetSdkVersion": 35,
-      "minSdkVersion": 23,
+      "minSdkVersion": 24,
       "edgeToEdgeEnabled": true
     },
     "androidStatusBar": {
@@ -41,7 +41,7 @@
           "android": {
             "compileSdkVersion": 35,
             "targetSdkVersion": 35,
-            "minSdkVersion": 23,
+            "minSdkVersion": 24,
             "buildToolsVersion": "35.0.0",
             "enableProguardInReleaseBuilds": true,
             "enableShrinkResourcesInReleaseBuilds": true

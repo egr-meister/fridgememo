@@ -161,7 +161,7 @@ Download the results from the workflow run's **Artifacts** section:
 ## Google Play compatibility
 
 - Targets **Android API 35** (`targetSdkVersion 35`, `compileSdkVersion 35`)
-- `minSdkVersion 23`
+- `minSdkVersion 24` (the minimum required by React Native 0.79)
 - Built on a current Expo SDK / React Native version that supports API 35 and the
   **16 KB memory page sizes** required for Android 15+ devices, so the release AAB
   is suitable for Google Play upload
