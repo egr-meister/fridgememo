@@ -97,8 +97,12 @@ Output locations:
 - APK: `android/app/build/outputs/apk/release/`
 - AAB: `android/app/build/outputs/bundle/release/`
 
-Release minification and resource shrinking (R8/ProGuard) are enabled through
-`expo-build-properties` in `app.json` and the rules in `proguard-rules.pro`.
+R8/ProGuard minification and resource shrinking are currently **disabled** in
+`app.json` (`enableProguardInReleaseBuilds: false`,
+`enableShrinkResourcesInReleaseBuilds: false`) to guarantee a stable release that
+does not crash on launch. The ProGuard rules in `proguard-rules.pro` are kept in
+the repo so minification can be re-enabled later (set both flags to `true`) and
+tested on a device before shipping.
 
 ## Generate a signing keystore
 
